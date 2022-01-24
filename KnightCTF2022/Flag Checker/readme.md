@@ -8,4 +8,4 @@ Ném file vào IDA để phân tích
 2 vòng lặp để mã hóa rồi so sánh với v5. Vậy chúng ta chỉ cần lấy v5 decode theo 2 vòng lặp kia là sẽ có flag.
 
 ![flag](flag.png)
-##KCTF{aTbAsH_cIpHeR_wItH_sOmE_tWiSt}##
+*KCTF{aTbAsH_cIpHeR_wItH_sOmE_tWiSt}*
