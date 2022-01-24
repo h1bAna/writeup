@@ -1,6 +1,6 @@
 # đề bài 
 
-![a](question.png)
+![a](quession.png)
 
 ![b](ter.png)
 
@@ -14,6 +14,7 @@ ta thấy *s* nhận vào tối đa 200byte từ input. dest có độ lớn t�
 vậy t cần nhập đủ 72 byte + 4 byte ghi tràn sang v6 + 4byte ghi tràn sang v7
 
 v6 = 1397445710 = 0x4e544b53 (little endian) = NTKS
+
 v7 = 1413825868 = 0x4c454554 (little endien) = 	LEET
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaNTKSLEET
