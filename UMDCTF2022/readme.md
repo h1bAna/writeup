@@ -43,7 +43,7 @@ Action:
 Đầu tiên sẽ nhập một vài thông tin sau đó hiện ra 1 menu với 3 options: `Perform Act`, `Switch Act`, `End Show`
 Với option 1 `Perform Act` thì sẽ tell joke sau dó kết thúc chương trình. Option2 `Switch Act` thì sau khi nhập một vài thông tin thì mình luôn bị trả về lỗi segmentation fault. Option3 thì kết thúc chương trình. Bây giờ cùng ngó qua source code để xem ta có thể khai thác được gì. Mình thấy có 1 số hàm như sau:
 
-![function](https://raw.githubusercontent.com/hibana/UMDCTF-2020/master/theshow/function.png) 
+![function](function.png) 
 
 Ta thấy có hàm `win()` và `tellAjoke()` mình đoán để có flag thì cần phải làm `Perform Act` chạy hàm `win()` thay vì `tellAjoke()`
 cùng xem chi tiết các hàm khác nhé:
