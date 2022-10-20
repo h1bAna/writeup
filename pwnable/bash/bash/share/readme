@@ -1,0 +1,5 @@
+Try to connect 1337 port and you can get the flag.
+This is a pwnable challenge rather than priviledge escaping.
+DO NOT try to gain the priviledge.
+If you find a way to get the flag without pwning (for example, misconfigured Dockerfile),
+contact the administrator and you can get a special achievement. :)

@@ -1,0 +1,34 @@
+service bash
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /home/bash/bash
+        server_args = --noprofile --norc -i
+        socket_type = stream
+        protocol = tcp
+        user = bash
+        port = 1234
+        flags = REUSE
+        per_source = 5
+        rlimit_cpu = 3
+        nice = 18
+	only_from = 172.17.0.1
+}
+
+service flag
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /bin/cat
+        server_args = /flag
+        socket_type = stream
+        protocol = tcp
+        user = root
+        port = 1337
+        flags = REUSE
+        per_source = 5
+        rlimit_cpu = 3
+        nice = 18
+}

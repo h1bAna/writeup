@@ -1,0 +1,65 @@
+2022-03-19 15:46:27 INFO  (LoggingInitialization) Using log config file: jar:file:/home/quangba/Desktop/CTFtool/ghidra_10.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2022-03-19 15:46:27 INFO  (LoggingInitialization) Using log file: null  
+2022-03-19 15:46:27 DEBUG (GadpClientHandler) Error caused by request sequence: 1
+launch_request {
+  path {
+    e: "Inferiors"
+    e: "[1]"
+  }
+  argument {
+    name: "args"
+    value {
+      string_value: "/home/quangba/Desktop/CTF/zer0pts CTF 2022/modern rome/modern-rome_c8561cd663bfc1f5dd6c14d3350fb614/modern-rome/chall"
+    }
+  }
+}
+: java.util.concurrent.CompletionException: agent.gdb.manager.impl.cmd.GdbCommandError: <GDB/MI2 -file-exec-and-symbols /home/quangba/Desktop/CTF/zer0pts> caused '{msg=[/home/quangba/Desktop/CTF/zer0pts: No such file or directory.]}'  
+2022-03-19 15:46:36 INFO  (LoggingInitialization) Using log config file: jar:file:/home/quangba/Desktop/CTFtool/ghidra_10.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2022-03-19 15:46:36 INFO  (LoggingInitialization) Using log file: null  
+2022-03-19 15:46:36 DEBUG (LinuxPty) New Pty: /dev/pts/5 at (148,149)  
+2022-03-19 15:46:36 DEBUG (GadpClientHandler) Error caused by request sequence: 1
+launch_request {
+  path {
+    e: "Inferiors"
+    e: "[1]"
+  }
+  argument {
+    name: "args"
+    value {
+      string_value: "/home/quangba/Desktop/CTF/zer0pts CTF 2022/modern rome/modern-rome_c8561cd663bfc1f5dd6c14d3350fb614/modern-rome/chall"
+    }
+  }
+}
+: java.util.concurrent.CompletionException: agent.gdb.manager.impl.cmd.GdbCommandError: <GDB/MI2 -file-exec-and-symbols /home/quangba/Desktop/CTF/zer0pts> caused '{msg=[/home/quangba/Desktop/CTF/zer0pts: No such file or directory.]}'  
+2022-03-19 15:46:41 INFO  (LoggingInitialization) Using log config file: jar:file:/home/quangba/Desktop/CTFtool/ghidra_10.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2022-03-19 15:46:41 INFO  (LoggingInitialization) Using log file: null  
+2022-03-19 15:46:41 DEBUG (LinuxPty) New Pty: /dev/pts/7 at (148,149)  
+2022-03-19 15:46:42 DEBUG (GadpClientHandler) Error caused by request sequence: 1
+launch_request {
+  path {
+    e: "Inferiors"
+    e: "[1]"
+  }
+  argument {
+    name: "args"
+    value {
+      string_value: "/home/quangba/Desktop/CTF/zer0pts CTF 2022/modern rome/modern-rome_c8561cd663bfc1f5dd6c14d3350fb614/modern-rome/chall"
+    }
+  }
+}
+: java.util.concurrent.CompletionException: agent.gdb.manager.impl.cmd.GdbCommandError: <GDB/MI2 -file-exec-and-symbols /home/quangba/Desktop/CTF/zer0pts> caused '{msg=[/home/quangba/Desktop/CTF/zer0pts: No such file or directory.]}'  
+2022-03-19 15:46:56 DEBUG (GadpClientHandler) Error caused by request sequence: 3
+execute_request {
+  path {
+  }
+  command: "r"
+}
+: java.util.concurrent.CompletionException: ghidra.dbg.error.DebuggerUserException: No executable file specified.
+Use the "file" or "exec-file" command.  
+2022-03-19 15:47:16 DEBUG (GdbManagerImpl) Terminating agent.gdb.manager.impl.GdbManagerImpl@649f2009  
+2022-03-19 15:47:16 DEBUG (GdbManagerImpl) Terminating agent.gdb.manager.impl.GdbManagerImpl@649f2009  
+2022-03-19 15:47:16 ERROR (Client handler terminated unexpectedly) java.util.concurrent.CompletionException: java.io.EOFException: Channel is closed  
+2022-03-19 15:47:16 ERROR (Client handler terminated unexpectedly) java.util.concurrent.CompletionException: java.io.EOFException: Channel is closed  
+2022-03-19 15:47:16 DEBUG (GdbManagerImpl) Terminating agent.gdb.manager.impl.GdbManagerImpl@15bcf458  
+2022-03-19 15:47:16 ERROR (Client handler terminated unexpectedly) java.util.concurrent.CompletionException: java.io.EOFException: Channel is closed  
+2022-03-19 15:47:16 DEBUG (GdbManagerImpl) Terminating agent.gdb.manager.impl.GdbManagerImpl@15bcf458  

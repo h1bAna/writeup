@@ -1,0 +1,10 @@
+bash:
+    build: ./
+    volumes:
+        - ./share:/home/bash:ro
+        - ./xinetd:/etc/xinetd.d/bash:ro
+        - ./tmp:/tmp:ro
+    ports:
+        - "10407:1234"
+    expose:
+        - "1234"
